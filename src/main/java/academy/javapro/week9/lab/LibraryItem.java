@@ -8,17 +8,19 @@ public interface LibraryItem {
      * Gets the title of the library item.
      * @return the title as a String
      */
-    // TODO: Define the getTitle method that returns a String.
 
+	public String getTitle();
     /**
      * Gets the type of the library item (e.g., "Book", "Magazine").
      * @return the item type as a String
      */
-    // TODO: Define the getItemType method that returns a String.
-
+    
+public String getItemType();
     /**
      * Gets a unique identifier for the library item.
      * @return the unique identifier as a String
      */
+
+	public String getUniqueIdentifier();
     // TODO: Define the getUniqueIdentifier method that returns a String.
 }
