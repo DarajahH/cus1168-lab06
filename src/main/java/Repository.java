@@ -1,4 +1,4 @@
-package academy.javapro.week9.lab;
+
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  * @param <T> the type of items stored in this repository
  */
 public class Repository<T> {
-    // TODO: Add a private final List field called items that stores items of type T.
+   
 	 private final List<T> items;
     /**
      * Constructs a new empty repository.
@@ -68,7 +68,7 @@ public class Repository<T> {
     /**
      * Counts the number of items in the repository.
      * @return the count of items
-     */
+     */ 
     public int count() {
     	 return items.size();
     }

@@ -1,4 +1,4 @@
-package academy.javapro.week9.lab;
+
 
 /**
  * Interface for library items with common methods for all library items.
@@ -22,5 +22,5 @@ public String getItemType();
      */
 
 	public String getUniqueIdentifier();
-    // TODO: Define the getUniqueIdentifier method that returns a String.
+	
 }

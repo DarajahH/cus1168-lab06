@@ -1,4 +1,4 @@
-package academy.javapro.week9.lab;
+
 
 /**
  * Represents a magazine in the library system.
@@ -17,20 +17,17 @@ public class Magazine implements LibraryItem {
     public Magazine(String title, int issueNumber, String publicationDate) {
         if (title == null || title.trim().isEmpty()) {
         	throw new IllegalArgumentException("Title cannot be null or empty.");
-        	
-            // TODO: Throw an IllegalArgumentException with the message "Title cannot be null or empty".
+            
         }
         if (issueNumber <= 0) {
         	
         	throw new IllegalArgumentException("Issue number must be positive");
-        	
-            // TODO: Throw an IllegalArgumentException with the message "Issue number must be positive".
+       
         }
         if (publicationDate == null || publicationDate.trim().isEmpty()) {
         	
         	throw new IllegalArgumentException("Publication date cannot be null or empty");
         	
-            // TODO: Throw an IllegalArgumentException with the message "Publication date cannot be null or empty".
         }
 
         this.title = title;
@@ -73,8 +70,6 @@ public class Magazine implements LibraryItem {
     public String getUniqueIdentifier() {
     	
     	return getTitle()+"-"+getIssueNumber();
-        // TODO: Return the title of the magazine followed by a hyphen and the issue number.
-     
     }
 
     @Override
